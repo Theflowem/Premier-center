@@ -1,0 +1,211 @@
+@media screen and (max-width:600px){
+  .mini__header{
+    display: none;
+    .mh-wrapper{
+      .nav-mh{
+        display: none;
+      }
+      .login-cart{
+        display: none;
+      }
+      .header__logo{
+       margin: 0 auto;
+        
+      }
+    }
+  }
+  .header{
+    .wrapp-nav__menu{
+      .nav-menu{
+        li{
+          display: none;
+        }
+      }
+      .n_logo{
+        position: relative;
+        left: 20%;
+        
+        img{
+          display: block;
+          width: 200px;
+        }
+      }
+    }
+  }
+  .nav{
+    background-color: #181a2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapper-bgm{
+      .burger-menu{
+        .wrapper-menu{
+          img{
+            margin-left: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:425px){
+  .header{
+    .wrapp-nav__menu{
+      .nav-menu{
+        li{
+          display: none;
+        }
+      }
+      .n_logo{
+        position: relative;
+        left: 13%;
+        
+        img{
+          display: block;
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:500px){
+  .block__info{
+    .content__info{
+      .content-item__info{
+        
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .customers{
+    display: none;
+  }
+  .zigzag{
+    img{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width:425px){
+  .block__info{
+    height: 800px;
+    .content__info{
+      display: flex;
+      flex-direction: column;
+      
+      .itm2{
+        position: static;
+      }
+    }
+  }
+}
+
+//MAP
+
+@media screen and (max-width:425px){
+  #map{
+    padding-top: -150px;
+    .contacts{
+      .flag-icon{
+        img{
+          width: 30px;
+        }
+        h1{
+          font-size: 30px;
+        }
+      }
+      .contacts__info{
+        p{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+
+//FOOTER
+
+@media screen and (max-width:483px){
+  .footer{
+    margin-top: 65px;
+    .footer-wrapper{
+      .footer-main__nav{
+        display: none;
+      }
+      .footer-second__nav{
+        display: none;
+      }
+      .main-ctn{
+        margin: 0 auto;
+        text-align: center;
+        li{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:425px){
+  .header{
+    .nav{
+      .wrapper-bgm{
+        .burger-menu{
+          .wrapper-menu{
+            img{
+              margin-right: -15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:375px){
+  .header{
+    .nav{
+      .wrapp-nav__menu{
+        form{
+          img{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .header{
+    .nav{
+      .wrapper-bgm{
+        .burger-menu{
+          .wrapper-menu{
+            img{
+              margin-left: 18px;
+            }
+          }
+        }
+      }
+      .wrapp-nav__menu{
+        .n_logo{
+          img{
+            margin-right: 0px;;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:320px){
+  .wrapp-slider{
+    margin-top: 0px;
+  }
+}
+

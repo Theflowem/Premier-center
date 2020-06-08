@@ -1,0 +1,158 @@
+@media screen and (max-width:860px){
+  .mini__header{
+    .mh-wrapper{
+      .nav-mh{
+        a{
+          font-size: 14px;
+        }
+      }
+      .header__logo{
+        img{
+          width: 200px;
+        }
+      }
+      .login-cart{
+        .user{
+          img{
+            width: 20px;
+          }
+          li{
+            margin: 3px 0px 0px 0px;
+          }
+          a{
+            font-size: 12px;
+          }
+        }
+        .cart{
+          img{
+            width: 20px;
+          }
+          li{
+            margin: 3px 0px 0px 0px;
+          }
+          a{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .nav{
+    .wrapper-bgm{
+      .burger-menu{
+        .wrapper-menu{
+          p{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .wrapp-nav__menu{
+    form{
+      input{
+        display: none;
+      }
+      img{
+        display: block;
+        margin-right:50px;
+      }
+    }
+    .nav-menu{
+      margin: 0 auto;
+    }
+  }
+}
+
+//SLIDER
+
+@media screen and (max-width:768px){
+  .wrapp-slider{
+    .slider{
+      height: 400px;
+      top: 200px;
+    }
+  }
+}
+
+
+
+//CONTENT
+
+@media screen and (max-width:768px){
+  .block__info{
+    height: 700px;
+    .content__info{
+      position: relative;
+      .itm2{
+        position: absolute;
+        top: 85%;
+        left: 23%;
+        right: 23%;
+      }
+    }
+  }
+}
+
+//FOOTER
+
+@media screen and (max-width:768px){
+  .footer{
+    
+    .ftlog-wrap{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .ftlog2{
+        display: block;
+        padding: 20px;
+        width: 220px;
+      }
+    }
+    .footer-wrapper{
+      padding-top: 0px;
+      .logo-footer{
+        display: none;
+      }
+    }
+    
+  }
+}
+
+@media screen and (max-width:898px){
+  .header{
+    .nav{
+      .wrapp-nav__menu{
+        .nav-menu{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:860px){
+  .header{
+    .nav{
+      .wrapp-nav__menu{
+        .nav-menu{
+          margin:0 auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:684px){
+  .paint{
+   .paint-main__title{
+     text-align: center;
+   }
+    .paint-catalog{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+

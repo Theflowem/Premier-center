@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+  .mini__header .mh-wrapper .nav-mh {
+    display: none;
+  }
+  .mini__header .mh-wrapper .login-cart {
+    display: none;
+  }
+  .mini__header .mh-wrapper .header__logo {
+    margin: 0 auto;
+  }
+  .header .wrapp-nav__menu .nav-menu li {
+    display: none;
+  }
+  .nav .wrapper-bgm .burger-menu .wrapper-menu img {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .slider {
+    display: none;
+  }
+}

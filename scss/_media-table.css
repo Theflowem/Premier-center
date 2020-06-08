@@ -1,0 +1,39 @@
+@media screen and (max-width: 860px) {
+  .mini__header .mh-wrapper .nav-mh a {
+    font-size: 14px;
+  }
+  .mini__header .mh-wrapper .header__logo img {
+    width: 200px;
+  }
+  .mini__header .mh-wrapper .login-cart .user img {
+    width: 20px;
+  }
+  .mini__header .mh-wrapper .login-cart .user li {
+    margin: 3px 0px 0px 0px;
+  }
+  .mini__header .mh-wrapper .login-cart .user a {
+    font-size: 12px;
+  }
+  .mini__header .mh-wrapper .login-cart .cart img {
+    width: 20px;
+  }
+  .mini__header .mh-wrapper .login-cart .cart li {
+    margin: 3px 0px 0px 0px;
+  }
+  .mini__header .mh-wrapper .login-cart .cart a {
+    font-size: 12px;
+  }
+  .nav .wrapper-bgm .burger-menu .wrapper-menu p {
+    display: none;
+  }
+  .wrapp-nav__menu form input {
+    display: none;
+  }
+  .wrapp-nav__menu form img {
+    display: block;
+    margin-right: 50px;
+  }
+  .wrapp-nav__menu .nav-menu {
+    margin: 0 auto;
+  }
+}
